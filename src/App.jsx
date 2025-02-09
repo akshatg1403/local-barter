@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import Browse from './pages/Browse';
 import Profile from './pages/Profile';
 import AddItem from './pages/AddItem';
-import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
